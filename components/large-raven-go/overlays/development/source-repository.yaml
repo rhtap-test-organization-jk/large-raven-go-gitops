@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: large-raven-go-repository
+spec:
+  url: https://github.com/rhtap-test-organization-jk/large-raven-go
